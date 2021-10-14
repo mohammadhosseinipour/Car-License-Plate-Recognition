@@ -1,0 +1,5 @@
+classes = 1 
+train  = data_dir/train.txt
+valid  = data_dir/valid.txt
+names = dat_dir/classes.names
+backup = backup/

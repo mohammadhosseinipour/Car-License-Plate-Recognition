@@ -1,0 +1,143 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler:  
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2021 10:26:11 PM.
+Project "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCUDA.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" /I. /FIcuda_runtime.h /c C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+Project "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1) is building "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  cmd.exe /C "C:\Users\mohammad\AppData\Local\Temp\tmp3ad0798dcbff40d88940d205bbe69386.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin
+  #$ _THERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/..
+  #$ NVVMIR_LIBRARY_DIR=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../nvvm/libdevice
+  #$ PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../nvvm/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../lib;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;;;C:\Users\mohammad\AppData\Local\Programs\Python\Python37;C:\Users\mohammad\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\mohammad\anaconda3;C:\Users\mohammad\anaconda3\Scripts;C:\Users\mohammad\anaconda3\Library\bin;C:\Program Files\Git\cmd;C:\Users\mohammad\anaconda3\envs\tensorflow_Penv;C:\Program Files\Git\bin;C:\Program Files\Polyspace\R2020b\runtime\win64;C:\Program Files\Polyspace\R2020b\polyspace\bin;C:\Program Files\Graphviz\bin\dot.exe;C:\Users\mohammad\Desktop\LPR\darkflow-master\bin;C:\Users\mohammad\Desktop\LPR\darkflow-master\cfg;C:\Users\mohammad\Desktop\LPR\darkflow-master;C:\Program Files\Polyspace\R2020b\bin;C:\Users\mohammad\anaconda3\envs\tensorflow_v1\Library\bin\tesseract.exe;C:\Users\mohammad\AppData\Local\Programs\Python\Python37\Scripts\pytesseract.exe;C:\Program Files\CMake\bin;C:\Users\mohammad\ninja;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.0\;C:\Users\mohammad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\PyCharm 2020.1\bin;C:\Program Files\JetBrains\CLion 2019.3.3\bin;C:\Users\mohammad\AppData\Roaming\npm;C:\Program Files (x86)\GnuWin32\bin;C:\GnuWin32\bin;C:\MinGW\bin;C:\Program Files\Graphviz\bin\dot.exe;C:\Program Files\Graphviz\bin;C:\Users\mohammad\AppData\Local\atom\bin;
+  #$ INCLUDES="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "C:\Program Files (x86)\Windows Kits\10"
+  #$ PTXAS_FLAGS=
+  cmakecudacompilerid.cu
+  #$ cl.exe @"C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-9.res" > "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-8_cmakecudacompilerid.cpp1.ii" 
+  cmakecudacompilerid.cu
+  #$ erase C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-9.res
+  #$ cicc --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "c:/users/mohammad/desktop/darknet-master/cmakefiles/checkcuda/cmakefiles/3.21.2/compileridcuda/cmakecudacompilerid.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000008e0_00000000-4_cmakecudacompilerid.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-5_cmakecudacompilerid.module_id" --gen_c_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.c" --stub_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.stub.c" --gen_device_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.gpu"  "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-8_cmakecudacompilerid.cpp1.ii" -o "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.ptx"
+  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.ptx"  -o "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-10_cmakecudacompilerid.sm_52.cubin" 
+  #$ fatbinary -64 --ident="c:/users/mohammad/desktop/darknet-master/cmakefiles/checkcuda/cmakefiles/3.21.2/compileridcuda/cmakecudacompilerid.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-10_cmakecudacompilerid.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.ptx" --embedded-fatbin="C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-4_cmakecudacompilerid.fatbin.c" 
+  #$ erase C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-4_cmakecudacompilerid.fatbin
+  #$ cl.exe @"C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-11.res" > "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-6_cmakecudacompilerid.cpp4.ii" 
+  cmakecudacompilerid.cu
+  #$ erase C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-11.res
+  #$ cudafe++ --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "c:/users/mohammad/desktop/darknet-master/cmakefiles/checkcuda/cmakefiles/3.21.2/compileridcuda/cmakecudacompilerid.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10" --m64 --parse_templates --gen_c_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.cpp" --stub_file_name "tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.stub.c" --module_id_file_name "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-5_cmakecudacompilerid.module_id" "C:/Users/mohammad/AppData/Local/Temp/tmpxft_000008e0_00000000-6_cmakecudacompilerid.cpp4.ii" 
+  #$ cl.exe @"C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-12.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_000008e0_00000000-7_cmakecudacompilerid.cudafe1.cpp
+  #$ erase C:\Users\mohammad\AppData\Local\Temp/tmpxft_000008e0_00000000-12.res
+Done Building Project "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 Debug\CMakeCUDACompilerId.cu.obj
+     Creating library .\CompilerIdCUDA.lib and object .\CompilerIdCUDA.exp
+  CompilerIdCUDA.vcxproj -> C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate".
+Done Building Project "C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.2\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.74
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.21.2/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin/../include"  ]
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_20c37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Compiling CUDA source file ..\..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu...
+  
+  C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"compute_52,compute_52\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_20c37.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_20c37.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu" 
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]
+  cmakecudacompilerabi.cu
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]
+LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]
+     Creating library C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_20c37.lib and object C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_20c37.exp
+  cmTC_20c37.vcxproj -> C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_20c37.exe
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_20c37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework]
+  ignore line: [Copyright (C) Microsoft Corporation. All rights reserved.]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52 code=\"compute_52 compute_52\" -gencode=arch=compute_52 code=\"sm_52 compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_20c37.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_20c37.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]]
+  ignore line: [  cmakecudacompilerabi.cu]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]]
+  ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+  ignore line: [ ignored [C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_20c37.vcxproj]]
+  ignore line: [     Creating library C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_20c37.lib and object C:/Users/mohammad/Desktop/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_20c37.exp]
+  ignore line: [  cmTC_20c37.vcxproj -> C:\Users\mohammad\Desktop\darknet-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_20c37.exe]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
